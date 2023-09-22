@@ -1,59 +1,29 @@
-## Introduction
+One of the things you might want a user to be able to do is keep count!
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+### Create a variable
 
-### What you will make
+First you need a variable to hold your count. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Open the `Variables`{:class='microbitvariables'} menu and click **Create a Variable**. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Give your variable a meaningful name, such as the thing you are counting.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+### Set the variable at the start
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+When your program begins you want the Variable to be set to `0`.
 
-+ A computer or tablet capable of running Scratch 3
+Open the `Variables`{:class='microbitvariables'} menu in the toolbox and drag a `set`{:class='microbitvariables'} block into your `on start`{:class='microbitbasic'} block.
 
-### Software
+<div style="position:relative;height:calc(125px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Lja5ybTCzhRA" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+### Increasing the variable
 
-### Downloads
+Next you need to decide **when** you want the count to happen. 
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+You can use **events** to increase the variable, like a `button pressed`{:class='microbitinput'} block. 
 
---- /collapse ---
+<div style="position:relative;height:calc(125px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_VzkdmA6VjMvc" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
---- collapse ---
----
-title: What you will learn
----
+You might also want to count when a **condition** is met, like you did in [Sleep tracker]():
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+<div style="position:relative;height:calc(100px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_iT2FmD3d7TE2" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>

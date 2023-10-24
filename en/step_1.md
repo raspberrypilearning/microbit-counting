@@ -22,7 +22,7 @@ let movements = 0
 
 Next, you need to decide **when** you want the count to increase. 
 
-You can use **events** to increase the variable, like a `button pressed`{:class='microbitinput'} block. 
+You can use **events** to increase the variable, like a `on button pressed`{:class='microbitinput'} block. 
 
 ```microbit
 let movements = 0

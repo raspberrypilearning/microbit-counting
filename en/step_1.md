@@ -22,7 +22,7 @@ let movements = 0
 
 Next, you need to decide **when** you want the count to increase. 
 
-You can use **events** to increase the variable, like a `on button pressed`{:class='microbitinput'} block. 
+You can use **events** to increase the variable, like an `on button pressed`{:class='microbitinput'} block. 
 
 ```microbit
 let movements = 0
@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-You might also want to count when a **condition** is met, like you did in [Sleep tracker]():
+You might also want to count when a **condition** is met, like you did in [Sleep tracker](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="_blank"}:
 
 ```microbit
 let movements = 0

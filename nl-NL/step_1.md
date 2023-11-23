@@ -4,7 +4,7 @@ Eén van de dingen die je een gebruiker zou kunnen laten doen is het bijhouden v
 
 Eerst heb je een variabele nodig om de telling bij te houden.
 
-Open het Variabelen{:class='microbitvariables'} menu en klik op **Maak een variabele**.
+Open het `Variabelen`{:class='microbitvariables'} menu en klik op **Maak een variabele**.
 
 Geef je variabele een logische naam, zoals het onderwerp van je telling.
 

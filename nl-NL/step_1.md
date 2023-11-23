@@ -1,28 +1,28 @@
-One of the things you might want a user to be able to do is keep count!
+Eén van de dingen die je een gebruiker zou kunnen laten doen is het bijhouden van een telling!
 
-### Create a variable
+### Maak een variabele
 
-First, you need a variable to hold your count.
+Eerst heb je een variabele nodig om de telling bij te houden.
 
-Open the `Variables`{:class='microbitvariables'} menu and click **Create a Variable**.
+Open het Variabelen{:class="microbitvariables"} menu en klik op **Maak een variabele**.
 
-Give your variable a meaningful name, such as the thing you are counting.
+Geef je variabele een logische naam, zoals het onderwerp van je telling.
 
-### Set the variable at the start
+### Stel de variabele aan het begin in
 
-When your program begins, you want the Variable to be set to `0`.
+Wanneer je programma start, wil je dat de variabele op `0` gezet wordt.
 
-Open the `Variables`{:class='microbitvariables'} menu in the Toolbox and drag a `set`{:class='microbitvariables'} block into your `on start`{:class='microbitbasic'} block.
+Open het `Variabelen`{:class='microbitvariables'} menu in de Toolbox en sleep een `stel in op`{:class='microbitvariables'} blok naar je `bij opstarten`{:class='microbitbasic'} blok.
 
 ```microbit
 let movements = 0
 ```
 
-### Increase the variable
+### Verhoog de variabele
 
-Next, you need to decide **when** you want the count to increase.
+Vervolgens moet je beslissen **wanneer** je wilt dat de telling stijgt.
 
-You can use **events** to increase the variable, like an `on button pressed`{:class='microbitinput'} block.
+Je kunt **gebeurtenissen** gebruiken om de variabele te verhogen, zoals een `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok.
 
 ```microbit
 let movements = 0
@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-You might also want to count when a **condition** is met, like you did in [Sleep tracker](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="\_blank"}:
+Je wilt misschien ook tellen wanneer aan een **voorwaarde** is voldaan, zoals je deed in het project [Slaap monitor](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="\_blank"}:
 
 ```microbit
 let movements = 0

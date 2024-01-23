@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-Je wilt misschien ook tellen wanneer aan een **voorwaarde** is voldaan, zoals je deed in het project [Slaap monitor](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="\_blank"}:
+Je wilt misschien ook tellen wanneer aan een **voorwaarde** is voldaan, zoals je deed in het project [Slaap monitor](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="_blank"}:
 
 ```microbit
 let movements = 0

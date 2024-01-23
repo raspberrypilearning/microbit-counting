@@ -31,7 +31,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-You might also want to count when a **condition** is met, like you did in [Sleep tracker](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="\_blank"}:
+You might also want to count when a **condition** is met, like you did in [Sleep tracker](https://projects.raspberrypi.org/en/projects/sleep-tracker){:target="_blank"}:
 
 ```microbit
 let movements = 0
